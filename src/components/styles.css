@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.card{
+    background-image: url(../assets/card-bg.jpg);
+    background-size: cover;
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid firebrick;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card-name{
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    margin-bottom: 0.5rem;
+}
+.card-img{
+    
+    width: 80%;
+    height: auto;
+}

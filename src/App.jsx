@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { Card } from "./components/Card";
+import { Container } from "./components/Container";
 
 function App() {
   return (
     <>
-      <Card name="Pikachu" />
+      <Container/>
     </>
   );
 }
