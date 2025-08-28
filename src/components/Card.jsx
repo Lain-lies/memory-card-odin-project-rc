@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import './styles.css';
+import "./styles.css";
 
 export function Card({ name, handleClick }) {
   const [imageUrl, setImageUrl] = useState("");
@@ -16,9 +16,9 @@ export function Card({ name, handleClick }) {
   }, []);
 
   return (
-    <div className='card' onClick={() => handleClick(name)}>
-      {imageUrl !== "" && <img src={imageUrl} className = 'card-img'/>}
-      <p className='card-name'>{name}</p>
+    <div className="card" onClick={() => handleClick(name)}>
+      {imageUrl !== "" && <img src={imageUrl} className="card-img" />}
+      <p className="card-name">{name}</p>
     </div>
   );
 }
